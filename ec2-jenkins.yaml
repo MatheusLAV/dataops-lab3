@@ -44,7 +44,7 @@ Resources:
   # Provisionar EC2
   EC2:
     Type: AWS::EC2::Instance
-    Properties:        a
+    Properties:
       ImageId: ami-0dc2d3e4c0f9ebd18
       InstanceType: t2.micro
       KeyName: !Sub ${key}
